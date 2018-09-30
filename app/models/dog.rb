@@ -8,7 +8,6 @@ attr_accessor :name, :breed, :age
     @name = name
     @breed = breed
     @age = age
-    self.all
   end
 
 
