@@ -8,7 +8,7 @@ attr_accessor :name, :breed, :age
     @name = name
     @breed = breed
     @age = age
-    @@all
+    binding.pry
   end
 
   def self.all
